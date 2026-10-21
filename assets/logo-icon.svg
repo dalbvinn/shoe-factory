@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="SoleCraft Icon">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b86b35"/>
+      <stop offset="100%" stop-color="#7c3f15"/>
+    </linearGradient>
+    <linearGradient id="iconGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e5a950"/>
+      <stop offset="100%" stop-color="#c48227"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="48" height="48" rx="10" fill="url(#iconGrad)" />
+  <path d="M10 32 C 16 33, 23 33, 31 29 C 37 25, 39 19, 39 14 C 35 14, 29 18, 25 21 C 20 23, 14 24, 10 26 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M10 35 C 19 36, 30 34, 40 26 L 41 29 C 31 37, 19 39, 10 37 Z" fill="url(#iconGold)"/>
+  <circle cx="16" cy="18" r="3" fill="#ffffff" opacity="0.9"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Industrial robotic shoe cutting and sole vulcanization machinery">
+  <defs>
+    <linearGradient id="machGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="12" fill="url(#machGrad)"/>
+
+  <!-- Machine gantry frame -->
+  <rect x="80" y="60" width="440" height="24" rx="4" fill="#334155"/>
+  <rect x="80" y="60" width="30" height="240" fill="#1e293b"/>
+  <rect x="490" y="60" width="30" height="240" fill="#1e293b"/>
+  <rect x="80" y="270" width="440" height="30" fill="#334155"/>
+
+  <!-- CNC Laser Cutting Tool Head -->
+  <g transform="translate(260, 84)">
+    <rect x="25" y="0" width="30" height="50" fill="#475569"/>
+    <circle cx="40" cy="50" r="10" fill="#64748b"/>
+    <path d="M 37 58 L 43 58 L 41 75 L 39 75 Z" fill="#94a3b8"/>
+    <!-- Laser Beam -->
+    <line x1="40" y1="75" x2="40" y2="190" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="40" cy="190" r="6" fill="#38bdf8" opacity="0.6"/>
+    <circle cx="40" cy="190" r="2" fill="#ffffff"/>
+  </g>
+
+  <!-- Automated conveyor with shoe soles -->
+  <g transform="translate(140, 240)">
+    <ellipse cx="60" cy="15" rx="35" ry="12" fill="#0284c7" opacity="0.8"/>
+    <ellipse cx="160" cy="15" rx="35" ry="12" fill="#0284c7" opacity="0.8"/>
+    <ellipse cx="260" cy="15" rx="35" ry="12" fill="#38bdf8"/>
+  </g>
+
+  <!-- Digital HUD / Telemetry -->
+  <g transform="translate(380, 100)">
+    <rect x="0" y="0" width="90" height="50" rx="6" fill="rgba(15, 23, 42, 0.7)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="10" y="20" font-family="monospace" font-size="10" fill="#38bdf8">TOLERANCE</text>
+    <text x="10" y="38" font-family="monospace" font-size="14" font-weight="700" fill="#ffffff">±0.05mm</text>
+  </g>
+
+  <!-- Caption overlay card -->
+  <rect x="40" y="320" width="520" height="52" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#334155"/>
+  <text x="60" y="352" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Robotic CNC Precision</text>
+  <text x="240" y="352" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="400" fill="#94a3b8">Computerized cutting for zero leather wastage</text>
+</svg>

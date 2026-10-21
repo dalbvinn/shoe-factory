@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Sole Vulcanization &amp; Assembly Icon">
+  <rect width="64" height="64" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Outsole tread profile -->
+  <path d="M12 36 C 20 38, 36 38, 52 30 L 52 38 C 40 46, 20 46, 12 40 Z" fill="#b86b35" opacity="0.3"/>
+  <path d="M12 34 C 20 37, 36 37, 52 28 L 52 34 C 36 43, 20 43, 12 38 Z" fill="#7c3f15"/>
+  <!-- Grip lugs -->
+  <rect x="18" y="38" width="4" height="5" rx="1" fill="#0f172a"/>
+  <rect x="26" y="39" width="4" height="5" rx="1" fill="#0f172a"/>
+  <rect x="34" y="38" width="4" height="5" rx="1" fill="#0f172a"/>
+  <rect x="42" y="34" width="4" height="5" rx="1" fill="#0f172a"/>
+  <!-- Compression heat arrows -->
+  <path d="M24 18 L24 26 M22 23 L24 26 L26 23" stroke="#e5a950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 16 L40 24 M38 21 L40 24 L42 21" stroke="#e5a950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

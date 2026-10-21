@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Shoemaker hand lasting leather over wooden shoe tree">
+  <defs>
+    <linearGradient id="craftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d1b09"/>
+      <stop offset="100%" stop-color="#120c05"/>
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="12" fill="url(#craftGrad)"/>
+  
+  <!-- Wooden Last & Leather Pattern -->
+  <g transform="translate(150, 100)">
+    <!-- Wooden shoe last form -->
+    <path d="M 60 160 C 80 162, 140 160, 200 145 C 240 135, 270 120, 310 130 C 330 135, 340 148, 330 156 C 270 165, 220 172, 150 170 C 80 168, 55 162, 60 160 Z" fill="url(#woodGrad)"/>
+    <path d="M 90 158 C 80 110, 110 70, 140 50 C 165 35, 190 40, 210 70 C 230 100, 260 115, 310 130 C 270 120, 240 135, 200 145 C 140 160, 80 162, 90 158 Z" fill="#b45309" opacity="0.9"/>
+    
+    <!-- Tensioning Lasting Pliers / Pincers -->
+    <path d="M 280 20 L 295 100 L 305 100 L 320 20 Z" fill="#94a3b8"/>
+    <path d="M 292 98 C 295 112, 305 112, 308 98 Z" fill="#64748b"/>
+    <line x1="285" y1="40" x2="315" y2="40" stroke="#475569" stroke-width="4"/>
+
+    <!-- Pinned leather tack nails -->
+    <circle cx="120" cy="165" r="3" fill="#cbd5e1"/>
+    <circle cx="160" cy="167" r="3" fill="#cbd5e1"/>
+    <circle cx="200" cy="160" r="3" fill="#cbd5e1"/>
+    <circle cx="240" cy="150" r="3" fill="#cbd5e1"/>
+    <circle cx="280" cy="145" r="3" fill="#cbd5e1"/>
+
+    <!-- Stitching guideline markings -->
+    <path d="M 120 70 C 150 100, 210 120, 280 135" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- Caption overlay card -->
+  <rect x="40" y="320" width="520" height="52" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="#334155"/>
+  <text x="60" y="352" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Hand-Lasted Precision</text>
+  <text x="250" y="352" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="400" fill="#94a3b8">Over 200 individual cobbling operations per pair</text>
+</svg>

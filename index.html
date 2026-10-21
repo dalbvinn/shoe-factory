@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SoleCraft Footwear Factory - Precision shoe engineering, bespoke Goodyear welted craftsmanship, and sustainable high-volume manufacturing.">
+  <meta name="keywords" content="shoe factory, footwear manufacturer, Goodyear welt, leather shoes, custom shoemaking, sneaker production">
+  <meta name="author" content="SoleCraft Footwear Manufacturing Co.">
+  <title>SoleCraft Footwear Factory | Precision Engineering &amp; Heritage Shoemaking</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo-icon.svg">
+
+  <!-- Google Fonts Preconnect & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Relative Link to CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Relative Link to JavaScript -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================================= -->
+  <!-- 1. NAVBAR SECTION (Landmark: header & nav)                                 -->
+  <!-- ========================================================================= -->
+  <header class="site-header" role="banner">
+    <div class="header-container">
+      <!-- Factory Brand Logo -->
+      <a href="#hero" class="brand-link" aria-label="SoleCraft Footwear Factory - Return to homepage">
+        <img src="assets/logo.svg" alt="SoleCraft Footwear Factory logo" class="brand-logo" width="220" height="46">
+      </a>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button 
+        type="button" 
+        class="nav-toggle" 
+        id="nav-toggle-btn"
+        aria-controls="primary-nav-menu" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation menu">
+        <span class="hamburger-bar" aria-hidden="true"></span>
+        <span class="hamburger-bar" aria-hidden="true"></span>
+        <span class="hamburger-bar" aria-hidden="true"></span>
+      </button>
+
+      <!-- Primary Navigation Bar Landmark -->
+      <nav class="navbar" id="primary-navbar" aria-label="Primary Navigation">
+        <ul class="nav-menu" id="primary-nav-menu">
+          <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">Our Heritage</a></li>
+          <li class="nav-item"><a href="#capabilities" class="nav-link">Manufacturing</a></li>
+          <li class="nav-item"><a href="#collections" class="nav-link">Shoe Lines</a></li>
+          <li class="nav-item"><a href="#customizer" class="nav-link">3D Customizer</a></li>
+          <li class="nav-item"><a href="#sustainability" class="nav-link">Sustainability</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact &amp; Tours</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action CTA -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-header-cta" aria-label="Request a production quote or order wholesale">Request Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- MAIN CONTENT CONTAINER (Landmark: main)                                   -->
+  <!-- ========================================================================= -->
+  <main id="main-content" tabindex="-1">
+
+    <!-- ======================================================================= -->
+    <!-- 2. HERO SECTION                                                         -->
+    <!-- ======================================================================= -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-container">
+        <!-- Hero Copy -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span>Master Cobblers &bull; Northampton Craft Heritage Since 1978</span>
+          </div>
+          <h1 id="hero-title" class="hero-title">
+            Precision Footwear Engineering &amp; Heritage Craftsmanship
+          </h1>
+          <p class="hero-lead">
+            From bespoke Goodyear welted dress shoes to robotic laser-cut athletic performance sneakers, 
+            our factory unites centuries of artisanal cobbling with high-throughput industrial precision.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#collections" class="btn btn-primary" aria-label="Explore our footwear production lines">
+              Explore Collections
+            </a>
+            <a href="#customizer" class="btn btn-secondary" aria-label="Launch the interactive 3D shoe configurator">
+              Interactive 3D Configurator
+            </a>
+          </div>
+
+          <!-- Factory Benchmark Statistics -->
+          <ul class="hero-stats-list" aria-label="Factory Key Milestones and Metrics">
+            <li class="stat-item">
+              <span class="stat-number">45+</span>
+              <span class="stat-label">Years of Craftsmanship</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number">2.5M</span>
+              <span class="stat-label">Pairs Produced Annually</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Ethical LWG Traceability</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number">±0.05<small>mm</small></span>
+              <span class="stat-label">Robotic Laser Precision</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hero Media Artwork -->
+        <div class="hero-media-wrapper">
+          <img 
+            src="assets/hero-shoe-factory.svg" 
+            alt="Artisan cobbler hand-stitching a premium leather dress shoe on a workshop bench with traditional cobbler tools" 
+            class="hero-image" 
+            width="800" 
+            height="500">
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 3. CORE CONTENT SECTIONS                                                -->
+    <!-- ======================================================================= -->
+
+    <!-- Core Content: About Factory Heritage & Craft -->
+    <section id="about" class="about-section" aria-labelledby="about-title">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">Factory Provenance</span>
+          <h2 id="about-title" class="section-title">Where Traditional Cobbling Meets Industrial Prowess</h2>
+          <p class="section-subtitle">
+            Every shoe produced inside the SoleCraft factory undergoes over two hundred individual operations. 
+            We honor the venerable traditions of hand-shaped lasts while leveraging computerized pattern cutting.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Card 1: Artisanal Heritage -->
+          <article class="about-card" aria-labelledby="artisan-card-title">
+            <div class="card-media">
+              <img 
+                src="assets/factory-craftsmanship.svg" 
+                alt="Shoemaker tightly hand-lasting leather over a wooden shoe tree with lasting pliers and tack nails" 
+                class="card-img" 
+                width="600" 
+                height="400" 
+                loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 id="artisan-card-title" class="card-title">Goodyear Welted &amp; Hand-Lasted Excellence</h3>
+              <p>
+                Our master artisans retain rare hand-lasting techniques passed down through generations. 
+                Goodyear welt construction ensures water resistance, unparalleled shape retention, and 
+                endless resoleability for generations of continuous wear.
+              </p>
+              <ul class="feature-bullets" aria-label="Artisanal Features">
+                <li>Full-grain vegetable-tanned leathers from Tuscany</li>
+                <li>Cork-filled footbeds conforming to individual foot contours</li>
+                <li>Meticulous hand-burnished aniline finishes</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Card 2: Modern Automation -->
+          <article class="about-card" aria-labelledby="machinery-card-title">
+            <div class="card-media">
+              <img 
+                src="assets/factory-machinery.svg" 
+                alt="Automated robotic CNC laser cutting system shaping shoe sole components with high digital precision" 
+                class="card-img" 
+                width="600" 
+                height="400" 
+                loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 id="machinery-card-title" class="card-title">Advanced CAD &amp; Robotic Automation</h3>
+              <p>
+                To serve high-volume international fashion houses and athletic brands, our secondary complex 
+                deploys multi-axis CNC laser cutters, high-pressure sole vulcanization chambers, and robotic 
+                nesting algorithms that minimize leather scrap by 38%.
+              </p>
+              <ul class="feature-bullets" aria-label="Machinery and Scale Features">
+                <li>Computerized pattern grading accurate to 0.05mm</li>
+                <li>Automated ultrasonic knit bonding for athletic uppers</li>
+                <li>Rapid tooling turnaround for prototype testing in under 7 days</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Content: Manufacturing Capabilities & Process -->
+    <section id="capabilities" class="capabilities-section" aria-labelledby="capabilities-title">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">Manufacturing Pipeline</span>
+          <h2 id="capabilities-title" class="section-title">The Four Pillars of Our Shoemaking Process</h2>
+          <p class="section-subtitle">
+            From initial digital conceptualization to final box dispatch, every footwear silhouette follows our 
+            stringent quality-controlled pipeline.
+          </p>
+        </div>
+
+        <ol class="process-steps" aria-label="Shoe manufacturing workflow stages">
+          <!-- Step 1 -->
+          <li class="process-step">
+            <div class="step-icon-wrapper">
+              <img src="assets/icon-cad.svg" alt="" class="step-icon" width="64" height="64" aria-hidden="true">
+              <span class="step-number" aria-hidden="true">01</span>
+            </div>
+            <h3 class="step-title">3D Lasting &amp; CAD Prototyping</h3>
+            <p class="step-description">
+              Digital shoe lasts are sculpted and analyzed for ergonomic pressure distribution prior to CNC cutting, 
+              ensuring an exact anatomical fit.
+            </p>
+          </li>
+
+          <!-- Step 2 -->
+          <li class="process-step">
+            <div class="step-icon-wrapper">
+              <img src="assets/icon-material.svg" alt="" class="step-icon" width="64" height="64" aria-hidden="true">
+              <span class="step-number" aria-hidden="true">02</span>
+            </div>
+            <h3 class="step-title">Ethical Material Curation</h3>
+            <p class="step-description">
+              Leathers, recycled ocean plastics, and organic cottons are batch-tested for tensile strength, 
+              abrasion durability, and environmental compliance.
+            </p>
+          </li>
+
+          <!-- Step 3 -->
+          <li class="process-step">
+            <div class="step-icon-wrapper">
+              <img src="assets/icon-stitch.svg" alt="" class="step-icon" width="64" height="64" aria-hidden="true">
+              <span class="step-number" aria-hidden="true">03</span>
+            </div>
+            <h3 class="step-title">Laser Skiving &amp; Stitching</h3>
+            <p class="step-description">
+              Precision skived edges and heavy-gauge industrial stitching assemble upper patterns with reinforced 
+              stress points for maximum longevity.
+            </p>
+          </li>
+
+          <!-- Step 4 -->
+          <li class="process-step">
+            <div class="step-icon-wrapper">
+              <img src="assets/icon-sole.svg" alt="" class="step-icon" width="64" height="64" aria-hidden="true">
+              <span class="step-number" aria-hidden="true">04</span>
+            </div>
+            <h3 class="step-title">Sole Molding &amp; Inspection</h3>
+            <p class="step-description">
+              Direct-injected EVA or Goodyear welted leather soles are cured under heat and pressure, followed by 
+              a 10-point manual inspection.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Core Content: Featured Shoe Collections -->
+    <section id="collections" class="collections-section" aria-labelledby="collections-title">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">Factory Production Catalog</span>
+          <h2 id="collections-title" class="section-title">Signature Footwear Silhouettes</h2>
+          <p class="section-subtitle">
+            Explore our flagship OEM &amp; private label silhouettes ready for brand customization and bulk factory licensing.
+          </p>
+        </div>
+
+        <div class="collections-grid">
+          <!-- Shoe 1: Oxford -->
+          <article class="shoe-card" aria-labelledby="shoe-oxford-title">
+            <div class="shoe-badge">Goodyear Welted</div>
+            <div class="shoe-image-wrapper">
+              <img 
+                src="assets/shoe-oxford.svg" 
+                alt="The Heritage Artisan Oxford dress shoe in dark burnished calfskin leather" 
+                class="shoe-image" 
+                width="500" 
+                height="320" 
+                loading="lazy">
+            </div>
+            <div class="shoe-content">
+              <div class="shoe-meta">Formal Footwear Line</div>
+              <h3 id="shoe-oxford-title" class="shoe-name">The Heritage Artisan Oxford</h3>
+              <p class="shoe-desc">
+                Hand-stained Italian calfskin with classic cap-toe broguing, channel-stitched leather sole, 
+                and hand-stacked heel.
+              </p>
+              <ul class="shoe-specs" aria-label="Shoe Specifications">
+                <li><strong>Upper:</strong> Full-Grain Calfskin</li>
+                <li><strong>Construction:</strong> 360&deg; Goodyear Welt</li>
+                <li><strong>MOQ:</strong> 150 Pairs</li>
+              </ul>
+              <div class="shoe-actions">
+                <a href="#customizer" class="btn btn-outline" data-shoe="oxford" aria-label="Configure The Heritage Artisan Oxford in 3D customizer">Customize Model</a>
+                <a href="#contact" class="btn btn-text" aria-label="Request quote for The Heritage Artisan Oxford">Inquire Sample &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Shoe 2: Runner -->
+          <article class="shoe-card" aria-labelledby="shoe-runner-title">
+            <div class="shoe-badge badge-tech">High Performance</div>
+            <div class="shoe-image-wrapper">
+              <img 
+                src="assets/shoe-runner.svg" 
+                alt="Apex Aero Runner athletic sneaker in marine blue with neon stability cage and sculpted foam midsole" 
+                class="shoe-image" 
+                width="500" 
+                height="320" 
+                loading="lazy">
+            </div>
+            <div class="shoe-content">
+              <div class="shoe-meta">Athletic Performance Line</div>
+              <h3 id="shoe-runner-title" class="shoe-name">Apex Aero Running Sneaker</h3>
+              <p class="shoe-desc">
+                Engineered circular jacquard knit upper coupled with nitrogen-infused dual-density foam 
+                and carbon fiber torsion plate.
+              </p>
+              <ul class="shoe-specs" aria-label="Shoe Specifications">
+                <li><strong>Upper:</strong> Recycled AeroKnit</li>
+                <li><strong>Midsole:</strong> Rebound NitroFoam</li>
+                <li><strong>MOQ:</strong> 500 Pairs</li>
+              </ul>
+              <div class="shoe-actions">
+                <a href="#customizer" class="btn btn-outline" data-shoe="runner" aria-label="Configure Apex Aero Running Sneaker in 3D customizer">Customize Model</a>
+                <a href="#contact" class="btn btn-text" aria-label="Request quote for Apex Aero Running Sneaker">Inquire Sample &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Shoe 3: Rugged Boot -->
+          <article class="shoe-card" aria-labelledby="shoe-boot-title">
+            <div class="shoe-badge badge-heavy">Heavy Duty</div>
+            <div class="shoe-image-wrapper">
+              <img 
+                src="assets/shoe-boot.svg" 
+                alt="Terra Grip rugged heritage leather boot in tobacco amber with brass eyelets and commando lug sole" 
+                class="shoe-image" 
+                width="500" 
+                height="320" 
+                loading="lazy">
+            </div>
+            <div class="shoe-content">
+              <div class="shoe-meta">Work &amp; Outdoor Heritage</div>
+              <h3 id="shoe-boot-title" class="shoe-name">Terra Grip Rugged Boot</h3>
+              <p class="shoe-desc">
+                Weatherproof oiled roughout leather reinforced with triple stitch rows, solid brass speed 
+                hooks, and deep-tread Vibram lug sole.
+              </p>
+              <ul class="shoe-specs" aria-label="Shoe Specifications">
+                <li><strong>Upper:</strong> 2.2mm Oil-Tanned Pull-Up</li>
+                <li><strong>Outsole:</strong> Vibram Commando Lug</li>
+                <li><strong>MOQ:</strong> 200 Pairs</li>
+              </ul>
+              <div class="shoe-actions">
+                <a href="#customizer" class="btn btn-outline" data-shoe="boot" aria-label="Configure Terra Grip Rugged Boot in 3D customizer">Customize Model</a>
+                <a href="#contact" class="btn btn-text" aria-label="Request quote for Terra Grip Rugged Boot">Inquire Sample &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Shoe 4: Eco Trainer -->
+          <article class="shoe-card" aria-labelledby="shoe-trainer-title">
+            <div class="shoe-badge badge-eco">Eco-Positive</div>
+            <div class="shoe-image-wrapper">
+              <img 
+                src="assets/shoe-trainer.svg" 
+                alt="Eco-Flex sustainable minimalist trainer in slate grey with natural honey crepe rubber sole" 
+                class="shoe-image" 
+                width="500" 
+                height="320" 
+                loading="lazy">
+            </div>
+            <div class="shoe-content">
+              <div class="shoe-meta">Sustainable Lifestyle Line</div>
+              <h3 id="shoe-trainer-title" class="shoe-name">Eco-Flex Sustainable Trainer</h3>
+              <p class="shoe-desc">
+                Constructed from 100% GOTS organic cotton canvas, renewable wild hevea crepe sole, and 
+                natural recycled cork internal insoles.
+              </p>
+              <ul class="shoe-specs" aria-label="Shoe Specifications">
+                <li><strong>Upper:</strong> Organic Heavy Canvas</li>
+                <li><strong>Sole:</strong> Wild Hevea Crepe Rubber</li>
+                <li><strong>MOQ:</strong> 250 Pairs</li>
+              </ul>
+              <div class="shoe-actions">
+                <a href="#customizer" class="btn btn-outline" data-shoe="trainer" aria-label="Configure Eco-Flex Sustainable Trainer in 3D customizer">Customize Model</a>
+                <a href="#contact" class="btn btn-text" aria-label="Request quote for Eco-Flex Sustainable Trainer">Inquire Sample &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Content: Sustainability & Certifications -->
+    <section id="sustainability" class="sustainability-section" aria-labelledby="sustainability-title">
+      <div class="section-container">
+        <div class="sustainability-content">
+          <div class="sustainability-text">
+            <span class="section-eyebrow">Eco-Responsibility</span>
+            <h2 id="sustainability-title" class="section-title">Zero-Compromise Sustainable Manufacturing</h2>
+            <p>
+              Our shoe factory operates on 100% certified renewable solar energy with a closed-loop water 
+              recycling system. We eliminate heavy-metal chromium tanning agents in favor of natural mimosa, 
+              chestnut, and quebracho tannins.
+            </p>
+            <div class="certification-badges" aria-label="Environmental and Quality Certifications">
+              <img src="assets/badge-lwg.svg" alt="Leather Working Group Gold Audited Tannery Certification" width="160" height="50">
+              <img src="assets/badge-iso.svg" alt="ISO 9001:2015 Quality Management System Certified" width="160" height="50">
+            </div>
+          </div>
+          <div class="sustainability-metrics">
+            <div class="metric-card">
+              <span class="metric-value">94%</span>
+              <span class="metric-title">Zero Landfill Diversion</span>
+              <p class="metric-desc">Leather clippings and rubber scrap recycled into acoustic insulation and playground surfaces.</p>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">100%</span>
+              <span class="metric-title">Traceable Raw Materials</span>
+              <p class="metric-desc">Every batch is tagged with blockchain certification from farm to finished shoe box.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 4. INTERACTIVE COMPONENT CONTAINER                                      -->
+    <!-- ======================================================================= -->
+    <section id="customizer" class="customizer-section" aria-labelledby="customizer-heading">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">Interactive Factory Studio</span>
+          <h2 id="customizer-heading" class="section-title">Interactive 3D Shoe Configurator &amp; Material Studio</h2>
+          <p class="section-subtitle">
+            Configure silhouettes, select certified leathers and outsole constructions, personalize heel monograms, 
+            and calculate immediate wholesale production estimates in real-time.
+          </p>
+        </div>
+
+        <!-- The Interactive Component Container -->
+        <div class="customizer-container" id="customizer-container" role="region" aria-label="Interactive Shoe Configurator Workspace">
+          
+          <!-- Interactive Preview Visualizer -->
+          <div class="customizer-viewport" role="region" aria-label="Shoe Model Live Visualizer" aria-live="polite">
+            
+            <!-- Viewport Overlay Badges -->
+            <div class="viewport-hud">
+              <span id="active-model-display" class="hud-pill">Model: Heritage Derby</span>
+              <span id="active-material-display" class="hud-pill">Leather: Cognac Tuscan</span>
+              <span id="view-angle-display" class="hud-pill">View: Lateral Profile</span>
+            </div>
+
+            <!-- Interactive Shoe SVG Graphic Canvas -->
+            <div class="interactive-stage" id="interactive-stage">
+              <svg 
+                id="interactive-shoe-svg" 
+                class="shoe-svg-model" 
+                viewBox="0 0 600 380" 
+                role="img" 
+                aria-label="Interactive visual representation of your configured shoe model">
+                <defs>
+                  <filter id="interactiveShadow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.3"/>
+                  </filter>
+                </defs>
+
+                <!-- Ground Shadow -->
+                <ellipse id="stage-ground-shadow" cx="300" cy="315" rx="230" ry="18" fill="#94a3b8" opacity="0.45"/>
+
+                <!-- Main Shoe Assembly Group -->
+                <g id="stage-shoe-assembly" filter="url(#interactiveShadow)" transform="translate(60, 40)">
+                  
+                  <!-- Outsole Component Layer -->
+                  <g id="layer-sole-group">
+                    <path 
+                      id="stage-sole" 
+                      d="M 60 230 C 120 234, 200 234, 280 224 C 330 216, 380 220, 440 232 C 475 238, 485 230, 475 220 C 420 208, 360 206, 300 212 C 220 218, 140 218, 70 212 C 50 210, 45 222, 60 230 Z" 
+                      fill="#8a5323" 
+                      stroke="#4e2b0e" 
+                      stroke-width="2"/>
+                    <path 
+                      id="stage-heel" 
+                      d="M 60 218 L 62 245 C 68 248, 125 248, 130 245 L 132 220 Z" 
+                      fill="#4a2511"/>
+                    <path 
+                      id="stage-welt" 
+                      d="M 72 214 C 150 220, 240 220, 310 212 C 370 206, 420 210, 465 220" 
+                      fill="none" 
+                      stroke="#fef08a" 
+                      stroke-width="2" 
+                      stroke-dasharray="3 2"/>
+                  </g>
+
+                  <!-- Upper Leather Body Component Layer -->
+                  <g id="layer-upper-group">
+                    <path 
+                      id="stage-upper" 
+                      d="M 70 212 C 70 170, 78 120, 108 100 C 138 80, 175 88, 205 125 C 238 160, 280 155, 340 162 C 395 168, 440 180, 470 196 C 485 204, 480 214, 455 214 C 400 206, 350 202, 290 206 C 220 212, 150 212, 70 212 Z" 
+                      fill="#b86b35" 
+                      stroke="#7c3f15" 
+                      stroke-width="2"/>
+                  </g>
+
+                  <!-- Accent Leather & Brogue Toe Cap Layer -->
+                  <g id="layer-accent-group">
+                    <path 
+                      id="stage-heel-counter" 
+                      d="M 70 212 C 70 170, 78 120, 108 100 C 120 92, 135 90, 142 105 C 130 145, 136 180, 145 214 C 115 214, 90 213, 70 212 Z" 
+                      fill="#78350f" 
+                      opacity="0.95"/>
+                    <path 
+                      id="stage-toe-cap" 
+                      d="M 370 166 C 380 185, 390 198, 405 205 L 455 214 C 480 214, 485 204, 470 196 C 440 180, 405 170, 370 166 Z" 
+                      fill="#78350f" 
+                      opacity="0.95"/>
+                    <circle cx="390" cy="180" r="2.2" fill="#fef08a"/>
+                    <circle cx="400" cy="190" r="2.2" fill="#fef08a"/>
+                    <circle cx="415" cy="200" r="2.2" fill="#fef08a"/>
+                  </g>
+
+                  <!-- Lacing System & Eyelets Layer -->
+                  <g id="layer-laces-group">
+                    <path d="M 205 125 C 240 155, 275 150, 310 158 L 295 180 C 260 172, 225 175, 198 152 Z" fill="#582106"/>
+                    <circle cx="225" cy="142" r="3" fill="#fbbf24"/>
+                    <circle cx="248" cy="148" r="3" fill="#fbbf24"/>
+                    <circle cx="272" cy="154" r="3" fill="#fbbf24"/>
+                    <circle cx="295" cy="160" r="3" fill="#fbbf24"/>
+
+                    <g id="stage-laces" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round">
+                      <line x1="225" y1="142" x2="248" y2="148"/>
+                      <line x1="248" y1="148" x2="272" y2="154"/>
+                      <line x1="272" y1="154" x2="295" y2="160"/>
+                      <path d="M 225 142 C 205 125, 200 135, 218 145 C 200 152, 205 165, 224 146" fill="none"/>
+                    </g>
+                  </g>
+
+                  <!-- Personalized Monogram Heel Stamp -->
+                  <g id="stage-monogram-container" transform="translate(100, 150) rotate(-10)">
+                    <rect x="0" y="0" width="36" height="24" rx="4" fill="rgba(245, 158, 11, 0.25)" stroke="#e5a950" stroke-width="1.2" stroke-dasharray="2 1"/>
+                    <text id="stage-monogram-text" x="18" y="16" font-family="'Playfair Display', serif" font-size="12" font-weight="700" fill="#fef08a" text-anchor="middle" letter-spacing="1">SC</text>
+                  </g>
+
+                  <!-- Dynamic Gloss Highlight -->
+                  <path id="stage-sheen" d="M 170 105 C 220 140, 300 150, 400 165 C 440 172, 465 185, 460 188 C 390 174, 300 160, 220 140 C 180 128, 165 116, 170 105 Z" fill="#ffffff" opacity="0.18"/>
+                </g>
+              </svg>
+            </div>
+
+            <!-- Interactive Stage Controls -->
+            <div class="stage-toolbar" role="toolbar" aria-label="3D Model View Controls">
+              <button type="button" class="btn-tool" id="btn-rotate-left" aria-label="Rotate shoe view angle left">
+                <span aria-hidden="true">&#8630;</span> Rotate
+              </button>
+              <button type="button" class="btn-tool" id="btn-reset-view" aria-label="Reset shoe view to default lateral angle">
+                <span aria-hidden="true">&#8634;</span> Reset
+              </button>
+              <button type="button" class="btn-tool" id="btn-toggle-sheen" aria-label="Toggle shoe leather finish between matte and high-gloss polish">
+                <span aria-hidden="true">&#10024;</span> Finish: Gloss
+              </button>
+            </div>
+          </div>
+
+          <!-- Interactive Customizer Controls Panel -->
+          <div class="customizer-controls" role="form" aria-label="Shoe Customizer Configuration Options">
+            <h3 class="controls-panel-title">Custom Specification Matrix</h3>
+
+            <!-- 1. Silhouette Selector -->
+            <fieldset class="control-group">
+              <legend class="control-legend">1. Select Silhouette Last</legend>
+              <div class="button-toggle-group" role="radiogroup" aria-label="Shoe Silhouette">
+                <button type="button" class="toggle-btn active" role="radio" aria-checked="true" data-silhouette="oxford" data-name="Heritage Oxford" data-price="220">
+                  Oxford
+                </button>
+                <button type="button" class="toggle-btn" role="radio" aria-checked="false" data-silhouette="runner" data-name="Aero Runner" data-price="140">
+                  Runner
+                </button>
+                <button type="button" class="toggle-btn" role="radio" aria-checked="false" data-silhouette="boot" data-name="Terra Boot" data-price="260">
+                  Boot
+                </button>
+                <button type="button" class="toggle-btn" role="radio" aria-checked="false" data-silhouette="trainer" data-name="Eco Trainer" data-price="120">
+                  Trainer
+                </button>
+              </div>
+            </fieldset>
+
+            <!-- 2. Upper Leather / Color Swatches -->
+            <fieldset class="control-group">
+              <legend class="control-legend">2. Upper Leather &amp; Colorway</legend>
+              <div class="swatch-group" role="radiogroup" aria-label="Leather Upper Color">
+                <button 
+                  type="button" 
+                  class="swatch-btn active" 
+                  role="radio" 
+                  aria-checked="true" 
+                  aria-label="Cognac Tuscan Calfskin" 
+                  data-upper-color="#b86b35" 
+                  data-accent-color="#78350f"
+                  data-color-name="Cognac Tuscan"
+                  style="--swatch-color: #b86b35;">
+                  <span class="swatch-label">Cognac</span>
+                </button>
+                <button 
+                  type="button" 
+                  class="swatch-btn" 
+                  role="radio" 
+                  aria-checked="false" 
+                  aria-label="Midnight Onyx Box Calf" 
+                  data-upper-color="#1e293b" 
+                  data-accent-color="#0f172a"
+                  data-color-name="Midnight Onyx"
+                  style="--swatch-color: #1e293b;">
+                  <span class="swatch-label">Onyx</span>
+                </button>
+                <button 
+                  type="button" 
+                  class="swatch-btn" 
+                  role="radio" 
+                  aria-checked="false" 
+                  aria-label="Deep Burgundy Cordovan" 
+                  data-upper-color="#6e1a24" 
+                  data-accent-color="#450a0a"
+                  data-color-name="Burgundy Cordovan"
+                  style="--swatch-color: #6e1a24;">
+                  <span class="swatch-label">Burgundy</span>
+                </button>
+                <button 
+                  type="button" 
+                  class="swatch-btn" 
+                  role="radio" 
+                  aria-checked="false" 
+                  aria-label="Olive Suede" 
+                  data-upper-color="#3f4f37" 
+                  data-accent-color="#243020"
+                  data-color-name="Olive Suede"
+                  style="--swatch-color: #3f4f37;">
+                  <span class="swatch-label">Olive</span>
+                </button>
+              </div>
+            </fieldset>
+
+            <!-- 3. Outsole Construction Type -->
+            <fieldset class="control-group">
+              <legend class="control-legend">3. Outsole Construction</legend>
+              <div class="button-toggle-group" role="radiogroup" aria-label="Outsole Construction">
+                <button type="button" class="toggle-btn active" role="radio" aria-checked="true" data-sole-color="#8a5323" data-heel-color="#4a2511" data-sole-name="Goodyear Leather">
+                  Leather Welt
+                </button>
+                <button type="button" class="toggle-btn" role="radio" aria-checked="false" data-sole-color="#0f172a" data-heel-color="#020617" data-sole-name="Vibram Lug Sole">
+                  Vibram Lug
+                </button>
+                <button type="button" class="toggle-btn" role="radio" aria-checked="false" data-sole-color="#fde047" data-heel-color="#ca8a04" data-sole-name="Natural Crepe">
+                  Natural Crepe
+                </button>
+              </div>
+            </fieldset>
+
+            <!-- 4. Laces Color -->
+            <fieldset class="control-group">
+              <legend class="control-legend">4. Waxed Lacing System</legend>
+              <div class="swatch-group" role="radiogroup" aria-label="Waxed Laces Color">
+                <button type="button" class="swatch-btn active" role="radio" aria-checked="true" aria-label="Ecru White Waxed Laces" data-lace-color="#f8fafc" style="--swatch-color: #f8fafc;">
+                  <span class="swatch-label">Ecru</span>
+                </button>
+                <button type="button" class="swatch-btn" role="radio" aria-checked="false" aria-label="Espresso Brown Waxed Laces" data-lace-color="#381d09" style="--swatch-color: #381d09;">
+                  <span class="swatch-label">Espresso</span>
+                </button>
+                <button type="button" class="swatch-btn" role="radio" aria-checked="false" aria-label="Gold Taslan Laces" data-lace-color="#f59e0b" style="--swatch-color: #f59e0b;">
+                  <span class="swatch-label">Amber</span>
+                </button>
+              </div>
+            </fieldset>
+
+            <!-- 5. Heel Monogram Embossing -->
+            <div class="control-group">
+              <label for="monogram-input" class="control-label">
+                5. Bespoke Heel Monogram (Max 3 Letters):
+              </label>
+              <div class="monogram-input-wrap">
+                <input 
+                  type="text" 
+                  id="monogram-input" 
+                  name="monogram" 
+                  maxlength="3" 
+                  value="SC" 
+                  class="text-input text-uppercase"
+                  aria-describedby="monogram-hint" 
+                  placeholder="SC">
+                <span id="monogram-hint" class="input-hint">Stamped onto the full-grain heel counter</span>
+              </div>
+            </div>
+
+            <!-- Dynamic Quotation & Specifications Summary -->
+            <div class="customizer-summary" aria-live="polite">
+              <div class="summary-row">
+                <span class="summary-label">Estimated Sample Cost:</span>
+                <span class="summary-value" id="calc-price">$220 USD</span>
+              </div>
+              <div class="summary-row">
+                <span class="summary-label">Production Lead Time:</span>
+                <span class="summary-value" id="calc-leadtime">14 Business Days</span>
+              </div>
+              <div class="summary-row">
+                <span class="summary-label">Sample Spec ID:</span>
+                <span class="summary-value" id="calc-spec-id">SC-OX-2026-B86B</span>
+              </div>
+            </div>
+
+            <!-- Customizer Action Buttons -->
+            <div class="customizer-actions">
+              <button type="button" class="btn btn-primary" id="btn-save-config" aria-label="Save current shoe configuration and prepare sample order">
+                Lock Configuration &amp; Order Sample
+              </button>
+              <button type="button" class="btn btn-outline" id="btn-download-spec" aria-label="Export technical specification sheet">
+                Download Spec Sheet
+              </button>
+            </div>
+            <div id="customizer-alert" class="customizer-alert" role="status" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- 5. CONTACT & FACTORY TOURS SECTION                                      -->
+    <!-- ======================================================================= -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">Factory Direct Partnership</span>
+          <h2 id="contact-heading" class="section-title">Schedule a Factory Visit or Request Production Quotes</h2>
+          <p class="section-subtitle">
+            Whether you are launching a new private-label footwear collection or scheduling an on-site audit 
+            of our shoemaking facilities, our technical engineering team is ready to assist.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Factory Information & Tour Map -->
+          <div class="contact-info-panel">
+            <h3 class="panel-heading">Factory Campus &amp; Headquarters</h3>
+            
+            <ul class="contact-details-list" aria-label="Factory contact details">
+              <li class="contact-detail-item">
+                <span class="detail-icon" aria-hidden="true">&#128205;</span>
+                <div class="detail-content">
+                  <strong>Factory Location</strong>
+                  <address class="factory-address">
+                    SoleCraft Manufacturing Campus<br>
+                    104 Industrial Craft Way, Sector 4<br>
+                    Northampton Footwear District, UK &amp; US Hubs
+                  </address>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <span class="detail-icon" aria-hidden="true">&#9742;</span>
+                <div class="detail-content">
+                  <strong>Direct Engineering Desk</strong>
+                  <a href="tel:+18005557653" class="detail-link">+1 (800) 555-SOLE (7653)</a>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <span class="detail-icon" aria-hidden="true">&#9993;</span>
+                <div class="detail-content">
+                  <strong>Technical Inquiries &amp; Orders</strong>
+                  <a href="mailto:inquiries@solecraft-factory.com" class="detail-link">inquiries@solecraft-factory.com</a>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <span class="detail-icon" aria-hidden="true">&#128340;</span>
+                <div class="detail-content">
+                  <strong>Operating &amp; Auditing Hours</strong>
+                  <span>Monday &ndash; Friday: 07:30 &ndash; 18:00 (GMT/EST)</span>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Factory Map Campus Graphic -->
+            <div class="campus-map-card">
+              <h4 class="map-card-title">Facility Campus Map &amp; Tour Route</h4>
+              <img 
+                src="assets/factory-map.svg" 
+                alt="SoleCraft Northampton factory campus layout map showing Building A hand-lasting workshop, Building B robotic cutting line, and the visitor reception center" 
+                class="campus-map-img" 
+                width="600" 
+                height="350" 
+                loading="lazy">
+            </div>
+          </div>
+
+          <!-- Semantic Contact & RFQ Form -->
+          <div class="contact-form-panel">
+            <h3 class="panel-heading">Factory Request for Quotation (RFQ)</h3>
+            <p class="form-intro">
+              Complete the specification form below. An assigned footwear engineer will respond within 24 business hours.
+            </p>
+
+            <form id="factory-contact-form" class="factory-form" novalidate aria-label="Footwear Manufacturing Inquiry Form">
+              
+              <!-- Client Name -->
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="contact-name">
+                    Full Name <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="contact-name" 
+                    name="name" 
+                    required 
+                    aria-required="true" 
+                    autocomplete="name" 
+                    placeholder="e.g. Marcus Vance">
+                  <span class="error-msg" id="name-error" aria-live="polite"></span>
+                </div>
+
+                <!-- Client Email -->
+                <div class="form-field">
+                  <label for="contact-email">
+                    Corporate Email <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="email" 
+                    id="contact-email" 
+                    name="email" 
+                    required 
+                    aria-required="true" 
+                    autocomplete="email" 
+                    placeholder="marcus@fashionlabel.com">
+                  <span class="error-msg" id="email-error" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <!-- Brand & Phone -->
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="contact-brand">Brand / Company Name</label>
+                  <input 
+                    type="text" 
+                    id="contact-brand" 
+                    name="company" 
+                    autocomplete="organization" 
+                    placeholder="e.g. Vance Heritage Atelier">
+                </div>
+                <div class="form-field">
+                  <label for="contact-phone">Phone Number</label>
+                  <input 
+                    type="tel" 
+                    id="contact-phone" 
+                    name="phone" 
+                    autocomplete="tel" 
+                    placeholder="+1 (555) 019-2834">
+                </div>
+              </div>
+
+              <!-- Inquiry Type & Volume -->
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="contact-inquiry-type">
+                    Inquiry Objective <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <select id="contact-inquiry-type" name="inquiry_type" required aria-required="true">
+                    <option value="" disabled selected>Select production objective...</option>
+                    <option value="wholesale">Full Production Run (500+ Pairs)</option>
+                    <option value="bespoke">Bespoke Sample Prototyping (1-10 Pairs)</option>
+                    <option value="customizer">Customizer Spec Quote (From 3D Studio)</option>
+                    <option value="tour">Schedule Factory Tour &amp; Audit</option>
+                    <option value="materials">Material Supply &amp; Tannery Partnership</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="contact-volume">Estimated Annual Pairage</label>
+                  <select id="contact-volume" name="volume">
+                    <option value="samples">Initial Samples Only (&lt; 50 pairs)</option>
+                    <option value="pilot">Pilot Run (100 &ndash; 500 pairs)</option>
+                    <option value="commercial" selected>Commercial Run (500 &ndash; 5,000 pairs)</option>
+                    <option value="enterprise">Enterprise (5,000+ pairs)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Message / Technical Specs -->
+              <div class="form-field">
+                <label for="contact-message">
+                  Footwear Specifications &amp; Project Scope <span class="required" aria-hidden="true">*</span>
+                </label>
+                <textarea 
+                  id="contact-message" 
+                  name="message" 
+                  rows="4" 
+                  required 
+                  aria-required="true" 
+                  placeholder="Outline your target silhouettes, desired leather grading, target delivery deadlines, and any custom lasting specs..."></textarea>
+                <span class="error-msg" id="message-error" aria-live="polite"></span>
+              </div>
+
+              <!-- NDA & Privacy Checkbox -->
+              <div class="form-field checkbox-field">
+                <input type="checkbox" id="contact-consent" name="consent" required aria-required="true">
+                <label for="contact-consent">
+                  I agree to SoleCraft&rsquo;s mutual factory NDA policy and data privacy guidelines.
+                </label>
+              </div>
+
+              <!-- Form Submit CTA -->
+              <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-contact" aria-label="Submit manufacturing inquiry to SoleCraft engineers">
+                Submit Manufacturing Inquiry
+              </button>
+
+              <!-- Live Form Feedback Notification -->
+              <div id="form-feedback-message" class="form-feedback" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- 6. FOOTER SECTION (Landmark: footer)                                       -->
+  <!-- ========================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="footer-container">
+        
+        <!-- Column 1: Brand & Credentials -->
+        <div class="footer-col brand-col">
+          <a href="#hero" class="footer-brand-link" aria-label="SoleCraft Footwear Factory - Return to top">
+            <img src="assets/logo.svg" alt="SoleCraft Footwear Factory" width="190" height="40" class="footer-logo">
+          </a>
+          <p class="footer-brand-desc">
+            SoleCraft Footwear Manufacturing Co. has stood at the vanguard of artisanal British and European 
+            shoemaking since 1978. Goodyear welted, direct-injection molded, and certified eco-positive.
+          </p>
+          <div class="footer-cert-badges">
+            <img src="assets/badge-lwg.svg" alt="Leather Working Group Gold audited" width="130" height="40">
+            <img src="assets/badge-iso.svg" alt="ISO 9001 certified" width="130" height="40">
+          </div>
+        </div>
+
+        <!-- Column 2: Navigation Links -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Factory Silhouettes</h3>
+          <nav aria-label="Footer Shoe Catalog Navigation">
+            <ul class="footer-links">
+              <li><a href="#collections">Goodyear Oxford Dress Line</a></li>
+              <li><a href="#collections">Apex Aero Running Footwear</a></li>
+              <li><a href="#collections">Terra Grip Work &amp; Outdoor Boots</a></li>
+              <li><a href="#collections">Eco-Flex Canvas Trainers</a></li>
+              <li><a href="#customizer">Custom Footwear Configurator</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Column 3: Technical Specifications & Resources -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Technical Resources</h3>
+          <ul class="footer-links">
+            <li><a href="#capabilities">Factory Lasting Standards</a></li>
+            <li><a href="#sustainability">LWG Gold Audit Documentation</a></li>
+            <li><a href="#capabilities">Goodyear Welt vs Blake Stitch Guide</a></li>
+            <li><a href="#contact">Wholesale Spec Sheet (PDF)</a></li>
+            <li><a href="#contact">Schedule Plant Audit</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Newsletter & Direct Updates -->
+        <div class="footer-col newsletter-col">
+          <h3 class="footer-heading">Factory Quarterly Bulletin</h3>
+          <p class="newsletter-desc">
+            Receive technical leather trend forecasts, tooling updates, and sustainable shoemaking breakthroughs.
+          </p>
+          <form class="newsletter-form" id="newsletter-form" novalidate aria-label="Subscribe to SoleCraft Factory Bulletin">
+            <div class="newsletter-input-group">
+              <label for="newsletter-email" class="visually-hidden">Email Address</label>
+              <input 
+                type="email" 
+                id="newsletter-email" 
+                name="newsletter_email" 
+                required 
+                aria-required="true" 
+                placeholder="developer@brand.com">
+              <button type="submit" class="btn btn-subscribe" aria-label="Subscribe to SoleCraft Factory Bulletin">
+                Join
+              </button>
+            </div>
+            <div id="newsletter-status" class="newsletter-status" role="status" aria-live="polite"></div>
+          </form>
+
+          <!-- Social Landmarks -->
+          <div class="social-links-wrapper">
+            <h4 class="social-heading">Connect With Our Workshop</h4>
+            <div class="social-links" role="group" aria-label="SoleCraft Social Profiles">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow SoleCraft Factory on LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.77v8.37H6.46v-8.37M7.85 6.2a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/></svg>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow SoleCraft Shoemakers on Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069M12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Watch SoleCraft Factory Tours on YouTube">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m10 15 5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 22c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 2c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73Z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer Bottom: Legal & Copyright -->
+    <div class="footer-bottom">
+      <div class="footer-container bottom-container">
+        <p class="copyright-text">
+          &copy; 2026 SoleCraft Footwear Manufacturing Co., Ltd. All rights reserved. 
+          Registered Factory No. UK-NF-78901.
+        </p>
+        <ul class="legal-links" aria-label="Legal and policy links">
+          <li><a href="#contact">Accessibility Statement</a></li>
+          <li><a href="#contact">Ethical Labor Policy</a></li>
+          <li><a href="#contact">Privacy Notice</a></li>
+          <li><a href="#contact">Terms of Supply</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

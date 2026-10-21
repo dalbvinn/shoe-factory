@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" width="240" height="50" role="img" aria-label="SoleCraft Factory Logo">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b86b35"/>
+      <stop offset="100%" stop-color="#7c3f15"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e5a950"/>
+      <stop offset="100%" stop-color="#c48227"/>
+    </linearGradient>
+  </defs>
+  <!-- Emblem: Stylized Shoe Last & Cobbler Anvil -->
+  <g transform="translate(6, 6)">
+    <rect x="0" y="0" width="38" height="38" rx="8" fill="url(#logoGrad)" />
+    <!-- Stylized shoe last silhouette -->
+    <path d="M7 26 C 12 27, 18 27, 24 24 C 29 21, 31 16, 31 12 C 28 12, 23 15, 20 17 C 16 19, 11 20, 7 21 Z" fill="#ffffff" opacity="0.95"/>
+    <path d="M7 28 C 14 29, 23 27, 31 21 L 32 23 C 24 29, 14 31, 7 30 Z" fill="url(#goldGrad)"/>
+    <circle cx="12" cy="15" r="2.5" fill="#ffffff" opacity="0.9"/>
+  </g>
+  <!-- Typography -->
+  <text x="54" y="27" font-family="'Plus Jakarta Sans', 'Segoe UI', -apple-system, sans-serif" font-size="20" font-weight="800" fill="#1e293b" letter-spacing="-0.5">SoleCraft</text>
+  <text x="54" y="41" font-family="'Plus Jakarta Sans', 'Segoe UI', -apple-system, sans-serif" font-size="9" font-weight="600" fill="#b86b35" letter-spacing="2">FOOTWEAR FACTORY</text>
+</svg>

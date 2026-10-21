@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320" role="img" aria-label="Terra Grip Rugged Heritage Leather Boot">
+  <defs>
+    <linearGradient id="bootLeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="60%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+    <linearGradient id="commandoSole" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="320" rx="16" fill="#f8fafc"/>
+  <ellipse cx="250" cy="275" rx="195" ry="16" fill="#cbd5e1" opacity="0.6"/>
+
+  <g transform="translate(40, 20)">
+    <!-- Heavy Duty Commando Lug Sole -->
+    <path d="M 50 215 C 90 218, 170 218, 230 208 C 280 200, 330 204, 380 215 C 410 222, 420 214, 412 205 C 360 195, 310 194, 250 200 C 180 206, 120 206, 60 200 C 45 198, 40 208, 50 215 Z" fill="url(#commandoSole)"/>
+    <!-- Heavy Sole Lugs -->
+    <rect x="70" y="215" width="12" height="8" rx="2" fill="#020617"/>
+    <rect x="95" y="216" width="12" height="8" rx="2" fill="#020617"/>
+    <rect x="135" y="215" width="12" height="8" rx="2" fill="#020617"/>
+    <rect x="270" y="210" width="14" height="8" rx="2" fill="#020617"/>
+    <rect x="310" y="213" width="14" height="8" rx="2" fill="#020617"/>
+    <rect x="350" y="216" width="14" height="8" rx="2" fill="#020617"/>
+
+    <!-- 6-Inch High Boot Shaft & Upper -->
+    <path d="M 60 200 
+             L 60 90 
+             C 60 70, 75 60, 95 60 
+             L 145 60 
+             C 155 75, 160 95, 170 115 
+             L 190 145 
+             C 230 155, 290 160, 340 170 
+             C 385 178, 405 190, 410 200 
+             C 360 195, 310 194, 250 200 
+             C 180 206, 120 206, 60 200 Z" fill="url(#bootLeather)"/>
+
+    <!-- Padded Leather Collar -->
+    <path d="M 60 90 C 60 68, 75 58, 95 58 L 145 58 C 152 70, 150 85, 145 92 L 60 92 Z" fill="#291307"/>
+
+    <!-- Triple Row Contrast Stitching -->
+    <path d="M 62 195 C 62 100, 68 85, 95 85" fill="none" stroke="#fcd34d" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <path d="M 170 140 C 210 165, 270 175, 330 180" fill="none" stroke="#fcd34d" stroke-width="1.5" stroke-dasharray="3 2"/>
+
+    <!-- Brass Speed Hooks & Eyelets -->
+    <circle cx="160" cy="85" r="3" fill="#eab308"/>
+    <circle cx="165" cy="102" r="3" fill="#eab308"/>
+    <circle cx="172" cy="120" r="3" fill="#eab308"/>
+    <circle cx="182" cy="138" r="3" fill="#eab308"/>
+    <!-- Yellow/Brown Taslan Boot Laces -->
+    <line x1="150" y1="85" x2="165" y2="102" stroke="#f59e0b" stroke-width="2.5"/>
+    <line x1="160" y1="102" x2="172" y2="120" stroke="#f59e0b" stroke-width="2.5"/>
+    <line x1="168" y1="120" x2="182" y2="138" stroke="#f59e0b" stroke-width="2.5"/>
+  </g>
+</svg>

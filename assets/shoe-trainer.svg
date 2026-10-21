@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320" role="img" aria-label="Eco-Flex Sustainable Minimalist Trainer">
+  <defs>
+    <linearGradient id="ecoUpper" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="crepeSole" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="320" rx="16" fill="#f8fafc"/>
+  <ellipse cx="250" cy="265" rx="190" ry="16" fill="#cbd5e1" opacity="0.6"/>
+
+  <g transform="translate(40, 45)">
+    <!-- Natural Crepe Rubber Sole -->
+    <path d="M 60 190 C 100 192, 170 192, 230 188 C 280 184, 330 188, 380 196 C 405 200, 415 195, 410 186 C 360 178, 310 176, 250 180 C 180 184, 120 184, 70 180 C 55 178, 50 185, 60 190 Z" fill="url(#crepeSole)"/>
+    <line x1="70" y1="183" x2="400" y2="183" stroke="#ca8a04" stroke-width="2" stroke-dasharray="4 2"/>
+
+    <!-- Organic Canvas Upper -->
+    <path d="M 70 180 C 70 150, 80 115, 105 105 C 130 95, 160 102, 185 125 C 215 145, 260 145, 315 152 C 365 158, 395 168, 405 178 C 390 180, 360 174, 310 172 C 250 174, 170 180, 70 180 Z" fill="url(#ecoUpper)"/>
+
+    <!-- Recycled Cork Heel Counter Tab -->
+    <path d="M 70 180 C 70 150, 80 115, 105 105 L 115 110 C 95 120, 88 150, 88 180 Z" fill="#d97706"/>
+
+    <!-- Minimalist side stitching -->
+    <path d="M 175 140 C 230 152, 290 156, 350 165" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 3"/>
+
+    <!-- Organic Cotton Flat Laces -->
+    <line x1="190" y1="130" x2="215" y2="135" stroke="#f1f5f9" stroke-width="3" stroke-linecap="round"/>
+    <line x1="215" y1="138" x2="240" y2="143" stroke="#f1f5f9" stroke-width="3" stroke-linecap="round"/>
+    <line x1="240" y1="145" x2="265" y2="150" stroke="#f1f5f9" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

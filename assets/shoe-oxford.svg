@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320" role="img" aria-label="The Heritage Artisan Oxford Dress Shoe">
+  <defs>
+    <linearGradient id="oxfordLeather" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#4a2511"/>
+      <stop offset="50%" stop-color="#311508"/>
+      <stop offset="100%" stop-color="#190a03"/>
+    </linearGradient>
+    <linearGradient id="oxfordSole" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a5323"/>
+      <stop offset="100%" stop-color="#4e2b0e"/>
+    </linearGradient>
+    <radialGradient id="highlight" cx="60%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background card canvas -->
+  <rect width="500" height="320" rx="16" fill="#f8fafc"/>
+
+  <!-- Shoe Cast Shadow -->
+  <ellipse cx="250" cy="265" rx="190" ry="16" fill="#cbd5e1" opacity="0.6"/>
+
+  <!-- Shoe Profile -->
+  <g transform="translate(40, 40)">
+    <!-- Sole & Stacked Heel -->
+    <path d="M 60 195 C 100 198, 170 198, 220 190 C 270 182, 320 186, 370 196 C 400 202, 410 196, 405 188 C 350 178, 305 176, 250 182 C 190 188, 130 188, 70 182 C 55 181, 50 189, 60 195 Z" fill="url(#oxfordSole)"/>
+    <path d="M 60 185 L 62 208 C 65 210, 115 210, 118 208 L 120 188 Z" fill="#2d170b"/>
+    <!-- Goodyear Welt Stitch -->
+    <path d="M 70 183 C 140 188, 210 188, 260 182 C 310 176, 355 180, 395 188" fill="none" stroke="#e5a950" stroke-width="1.8" stroke-dasharray="3 2"/>
+
+    <!-- Upper Body -->
+    <path d="M 70 182 C 70 150, 75 110, 100 95 C 125 78, 155 85, 175 115 C 200 145, 235 142, 280 148 C 325 152, 365 162, 395 174 C 405 178, 402 186, 385 186 C 340 180, 290 176, 240 180 C 185 185, 130 185, 70 182 Z" fill="url(#oxfordLeather)"/>
+    <path d="M 70 182 C 70 150, 75 110, 100 95 C 125 78, 155 85, 175 115 C 200 145, 235 142, 280 148 C 325 152, 365 162, 395 174 C 405 178, 402 186, 385 186 C 340 180, 290 176, 240 180 C 185 185, 130 185, 70 182 Z" fill="url(#highlight)"/>
+
+    <!-- Cap Toe Seam & Brogue Perforations -->
+    <path d="M 315 153 C 320 168, 325 178, 335 183" fill="none" stroke="#2a1408" stroke-width="2"/>
+    <circle cx="320" cy="158" r="1.5" fill="#e5a950"/>
+    <circle cx="324" cy="166" r="1.5" fill="#e5a950"/>
+    <circle cx="328" cy="174" r="1.5" fill="#e5a950"/>
+
+    <!-- Closed Oxford Lacing V-Facing -->
+    <path d="M 175 115 L 235 130 L 225 155 L 175 135 Z" fill="#2d170b"/>
+    <circle cx="190" cy="126" r="2" fill="#d97706"/>
+    <circle cx="205" cy="132" r="2" fill="#d97706"/>
+    <circle cx="220" cy="138" r="2" fill="#d97706"/>
+    <line x1="190" y1="126" x2="205" y2="132" stroke="#fef3c7" stroke-width="1.5"/>
+    <line x1="205" y1="132" x2="220" y2="138" stroke="#fef3c7" stroke-width="1.5"/>
+  </g>
+</svg>

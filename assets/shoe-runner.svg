@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320" role="img" aria-label="Apex Aero Running Sneaker">
+  <defs>
+    <linearGradient id="runnerKnit" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </linearGradient>
+    <linearGradient id="evaSole" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="voltAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#84cc16"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background card canvas -->
+  <rect width="500" height="320" rx="16" fill="#f8fafc"/>
+
+  <!-- Shoe Cast Shadow -->
+  <ellipse cx="250" cy="265" rx="190" ry="16" fill="#cbd5e1" opacity="0.6"/>
+
+  <g transform="translate(30, 45)">
+    <!-- Sculpted Chunky Foam Midsole -->
+    <path d="M 50 190 C 80 195, 150 192, 220 180 C 270 172, 330 180, 390 195 C 420 202, 435 190, 420 175 C 370 162, 320 162, 260 170 C 190 180, 120 180, 60 170 C 45 168, 40 180, 50 190 Z" fill="url(#evaSole)"/>
+    <!-- Neon TPU Plate in Midsole -->
+    <path d="M 170 182 C 220 174, 270 174, 320 180 L 322 186 C 270 180, 220 180, 168 188 Z" fill="url(#voltAccent)"/>
+    <!-- Rubber Outsole Lugs -->
+    <path d="M 55 192 L 65 198 L 90 197 L 120 196 L 260 185 L 340 188 L 400 198 L 415 192 Z" fill="#0f172a" opacity="0.9"/>
+
+    <!-- Breathable Knit Upper -->
+    <path d="M 60 170 C 60 140, 75 105, 110 90 C 135 80, 165 92, 190 115 C 220 135, 270 135, 330 145 C 380 152, 410 162, 415 172 C 400 175, 370 165, 320 162 C 260 162, 180 172, 60 170 Z" fill="url(#runnerKnit)"/>
+
+    <!-- Dynamic TPU Wave Support Cage -->
+    <path d="M 150 100 C 180 130, 210 155, 240 168 L 225 170 C 195 155, 170 130, 140 105 Z" fill="url(#voltAccent)" opacity="0.9"/>
+    <path d="M 180 110 C 210 140, 240 160, 270 168 L 255 170 C 225 160, 195 140, 170 115 Z" fill="url(#voltAccent)" opacity="0.9"/>
+
+    <!-- Pull tab on heel -->
+    <path d="M 105 88 C 100 70, 115 70, 118 86 Z" fill="#84cc16"/>
+
+    <!-- Fast Lacing System -->
+    <line x1="205" y1="125" x2="225" y2="135" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="230" y1="130" x2="250" y2="140" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="255" y1="135" x2="275" y2="145" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>
